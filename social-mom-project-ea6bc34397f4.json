@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "social-mom-project",
+  "private_key_id": "ea6bc34397f4dac59d9241a093449454c6229f13",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC7zktIZiRMQdSq\nU85DH6DpaRVhBQIHgm7fBs2psDfnxGzphHLZb1G9f+CUvDznqVmLgriSc21k/eQi\nPLuBmgCRoNIr/voSfTeAug43ISXqO7zTX+SzA0Lzmvv18A4HkZ5aRron5GRThPts\n1BStBJKT2BL7T8FbfuAI8AxyDOJRM0fH7gFvjluc+JdLTc05cpldn2FgTimYREIz\nCslu4qn9a7Xqr+ZOuP53F/Wqb8M7ssWtW4ALlSg+H/z13eRrB+FCMPy9+6pCbT1S\nbVXuDh7Ex35pynqUxdUT5tmtpEu/qU2U4cCqz1KBXljKqymSZIW8h3RaKWdN6a3N\nSqCW3CMBAgMBAAECggEAHXz7hJtnHSMkA3eDtjXn4+ZYUULCShAQnQu6LKfq60UE\nDdl6WAo61SyYRHpW/M/yK63jkbk2hso3sSmEjomyB6uu/HH9bXxEQ/3SwBTAGYp2\nMGFI7VO4hjwCTmA6L7WNXeLnlV5u409I1BJryavjYPvnJRclhtqBzl10ss6zlWiY\n4dO2DL5gpTd/ZCmDUoWG3SbV2AeGbOvcJc7Q+0hM2eTChtIz88ZNM2sYAqi4jT8J\nulgQE4lntEcooN8GMvs9rlJtI7RkGe/YhHRNA6kfJ0XcdyWC5NW/Ieh4eUyZaxyx\noGwGDh3EsfpSMnmfJkJKHcQtn87BGUiXGb4BWdYkTQKBgQDzqUxS0zxaU7TKXspl\n+hLODgM/4RE5K0NkfUUSvro1c9ZlOmt5QS6R4YGIHVEchGBQ3PgdD0Q4mDUbODHw\n29H3bSVt66qUsCKIgpMKPCK4NeyenuznBpwsDTYy1fDz0Jc7PnAbMUR5w6qZgZTW\nY+xdQnFwoEWU3dmMfOXF0w2wXQKBgQDFUOnrDXq22vcMpqIz2uopa3F9fiJdTJL6\ng7ZubxhjEX0S2jsKS1mNVjwhC5yqQxPp8ssazMMxxOGpH84YN4YNt4/ozT2qaGrZ\nhjZeoMgPWEqGzc7UORuce9szvpDZ30hi+gAEXjytvvB9DzA4QQ+X1dWrqJ2ALY9D\n8So1cU4i9QKBgQDDyhUHNK95UWujdVmjabd0lXPs/3fsfSQQ+kvnjRRpYSQ0gSXc\n8BBwrkh8TDph9MjEEVrZVuwVodCCh7wxcyEbdTuvQL/37DRDhtCKV9n6NXJl3wQz\ne29AQnl7jceo0sLCmyBP6V3BjgVmheZIA1DpeztWKaLfxQhLSA0F0dpdDQKBgDIM\nPvjm11xwF7+2uGesvD47SXMKPk8p8BHovKowNaBTPEU+40DOMe2+lMvQ9TDeiLuL\nYObwTwZdqNtL/Ot5keAC0la7UEvb5lY8S6ge4f+6ZlTg+PgtcAp2A/iQ+o64qtSo\nEr8I5B0x1C/0XUe3gOwDSgobX6+2XqNeFVWu4qHNAoGBAKgvWhqO8mBIVjQisbcB\nrDAM4owJqW1gevQ13xiu+62q/IqCaz7VELTd7STBS/sspkT43Gjzo90Ywnp1/5Y6\nJg2HXZF2Xrs2Ao3CvsBk1KE1peBrzk7aD8TPEGUFm8T+GQQTEPLtFIifz2DfK3Ja\nEpQJgAB71ph4qFKU50C++rLj\n-----END PRIVATE KEY-----\n",
+  "client_email": "employee@social-mom-project.iam.gserviceaccount.com",
+  "client_id": "109457211053836534131",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/employee%40social-mom-project.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

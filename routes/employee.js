@@ -37,7 +37,17 @@ router.get("/employees", async (req, res) => {
     res.status(500).json(err);
   }
 });
+
 //GET EMPLOYEE
+router.get("/:id", async (req, res) => {
+  try {
+    const findEmployee = await Employee.findById(req.params.id);
+    res.status(200).json(findEmployee);
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
 //DELET AN EMPLOYEE
 router.delete("/:id", async (req, res) => {
   try {
@@ -47,6 +57,24 @@ router.delete("/:id", async (req, res) => {
     res.status(500).json(err);
   }
 });
-//UPDAT AN EMPLOYEE INFORMATION
+
+//UPDATE AN EMPLOYEE INFORMATION
+router.put("/:id", async (req, res) => {
+  try {
+    const query = { _id: req.params.id };
+    const updatedEmployee = await Employee.findOneAndUpdate(
+      query,
+      {
+        $set: req.body,
+      },
+      {
+        new: true,
+      }
+    );
+    res.status(200).json(updatedEmployee);
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
 
 module.exports = router;
