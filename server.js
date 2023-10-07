@@ -1,6 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const employeeRouter = require("./routes/employee");
+const userRouter = require("./routes/user");
 const app = express();
 const cors = require("cors");
 require("dotenv").config();
@@ -45,6 +46,7 @@ const multerMid = multer({
 app.use(cors());
 app.use(express.json());
 app.use("/api/employees", employeeRouter);
+app.use("/api/user", userRouter);
 
 // Define a route for file uploads
 app.post("/upload", multerMid.single("fileUpload"), (req, res) => {
