@@ -22,10 +22,10 @@ const storage = new Storage({
 
 const configBucket = storage.bucket(process.env.BUCKET_NAME);
 
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 //setup our server
-app.listen(process.env.PORT || PORT, () => {
+app.listen(PORT, () => {
   console.log(`server is up and running in local host ${PORT}`);
 });
 
