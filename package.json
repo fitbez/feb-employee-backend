@@ -4,6 +4,7 @@
   "description": "Employee App API",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon server.js"
   },
@@ -14,8 +15,6 @@
   "author": "Fitsum",
   "license": "ISC",
   "devDependencies": {
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "nodemon": "^3.0.1"
   },
   "dependencies": {
